@@ -4,11 +4,12 @@ import Product from './Product'
 
 function home() {
   return (
-    <div className='home__countainer'>
-        <div className='home__banner'>
-            <img className='banner' src='https://m.media-amazon.com/images/I/716uwHcOuPL._SX3000_.jpg'/>
+    <div className='home'>
+        <div className='home__container'>
+            <img className='home__image' src='https://m.media-amazon.com/images/I/716uwHcOuPL._SX3000_.jpg'/>
             <div className='home__row'>
-                <Product/>
+                <Product
+                />
             </div>
             <div className='home__row'>
                 
